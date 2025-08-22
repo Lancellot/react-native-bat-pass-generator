@@ -1,3 +1,4 @@
+
 <div align="center">
   <a href="#">
       <img src=".github/assets/badge.png" width="200" />
@@ -8,33 +9,21 @@
   
   <!-- project badges -->
   <p align="center">
- <!--
-   <img 
-      alt="Project programing languages count" 
-      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
- -->
-  <!--
     <img 
-      alt="Last commit on GitHub" 
-      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
-  -->
-    <img 
-      alt="Made by Felipe Aguiar" 
-      src="https://img.shields.io/badge/made%20by-Felipe%20Aguiar-%20?color=6A57D5"
+      alt="Made by Assis Pires Neto" 
+      src="https://img.shields.io/badge/made%20by-Assis%20Pires%20Neto-%20?color=6A57D5"
     >
     <img 
       alt="Project top programing language" 
-      src="https://img.shields.io/github/languages/top/felipeAguiarCode/react-native-bat-pass-generator?color=6A57D5"
+      src="https://img.shields.io/github/languages/top/Lancellot/react-native-bat-pass-generator?color=6A57D5"
     >
     <img 
       alt="Repository size" 
-      src="https://img.shields.io/github/repo-size/felipeAguiarCode/react-native-bat-pass-generator?color=6A57D5"
+      src="https://img.shields.io/github/repo-size/Lancellot/react-native-bat-pass-generator?color=6A57D5"
     >
     <img 
       alt="GitHub license" 
-      src="https://img.shields.io/github/license/felipeAguiarCode/react-native-bat-pass-generator?color=6A57D5"
+      src="https://img.shields.io/github/license/Lancellot/react-native-bat-pass-generator?color=6A57D5"
     >
   </p> 
 
@@ -42,19 +31,16 @@
   <p align="center">
       An App to generate strong passwords.
     <br />
-    <a 
-      href="## Usage">
+    <a href="## Usage">
       <strong>Go to usage now »</strong>
     </a>
     <br />
     <br />
-    <a 
-      href="https://github.com/felipeAguiarCode/react-native-bat-pass-generator/issues">
+    <a href="https://github.com/Lancellot/react-native-bat-pass-generator/issues">
       Report Bug
     </a>
     ·
-    <a 
-      href="https://github.com/felipeAguiarCode/react-native-bat-pass-generator/issues/new">
+    <a href="https://github.com/Lancellot/react-native-bat-pass-generator/issues/new">
       Request Feature
     </a>
   </p>
@@ -79,14 +65,12 @@ This project was developed with the following technologies:
 -   [React Native](https://reactnative.dev/)
 -   [Expo](https://docs.expo.dev/)
 
-
-
 ## Building
 
 You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
 
 ```bash
-git clone https://github.com/felipeAguiarCode/react-native-bat-pass-generator.git
+git clone https://github.com/Lancellot/react-native-bat-pass-generator.git
 $ cd react-native-bat-pass-generator
 $ npm install
 $ npm run start
@@ -104,6 +88,6 @@ Runs the app in the development mode.<br/>
 
 ## Autor
 
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                             [Linkedin](www.linkedin.com/in/felipe-aguiar-exe)                                             |
+| [<img src="https://avatars.githubusercontent.com/u/113218397?v=4" width="96"><br><sub>Assis Pires Neto</sub>](https://github.com/Lancellot) |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [LinkedIn](https://www.linkedin.com/in/assis-pires-neto/)                                       |
