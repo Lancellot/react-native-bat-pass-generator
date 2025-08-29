@@ -1,29 +1,24 @@
 import React from "react";
-import {Text, View} from "react-native";
+import { View } from "react-native";
 import { StatusBar } from 'expo-status-bar';
-
-import styles from './Style';
+import styles from "./Style";
 import { BatLogo } from "../../components/BatLogo/BatLogo";
-import { BatTextInput } from "../../components/BatTextInput/BatTextInput";
-import { BatButton } from '../../components/BatButton/BatButton'
-
+import { BattextInput } from "../../components/BatTextInput/BatTextInput";
+import { BatButton } from "../../components/BatButton/batButton";
 
 export default function Home() {
-  return(
-    <View style={styles.appContainer}>
-
-      <View style={styles.logoContainer}>
+    return (
+        <View style={styles.appContainer}>
+       
+       <View style={styles.logoContainer}>
         <BatLogo/>
-      </View>
+       </View>
 
-      <View style={styles.inputContainer}>
+       <View style={styles.inputContainer}>
         <BatButton/>
-      </View>
 
-
-      <StatusBar style="light" />
-    </View>
-  )
+       </View>
+            <StatusBar style="light" />
+        </View>
+    );
 }
-
-

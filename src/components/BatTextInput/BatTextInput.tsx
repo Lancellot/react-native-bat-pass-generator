@@ -1,18 +1,19 @@
 import React from 'react';
-import {TextInput } from 'react-native';
+import { TextInput } from 'react-native';
 
 import { styles } from './BatTextInputStyles';
 
 interface BatTextInputProps{
-  pass:string
+  pass: string;
 }
 
-export function BatTextInput(props : BatTextInputProps) {
+export function BattextInput(props: BatTextInputProps) {
   return (
-      <TextInput
+        <TextInput
         style={styles.inputer}
         placeholder='pass'
         value={props.pass}
-      />
+        />
+
   );
 }
