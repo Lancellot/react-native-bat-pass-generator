@@ -88,6 +88,6 @@ Runs the app in the development mode.<br/>
 
 ## Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/113218397?v=4" width="96"><br><sub>Assis Pires Neto</sub>](https://github.com/Lancellot) |
+| [<img src="https://avatars.githubusercontent.com/u/42425865?v=4" width="96"><br><sub>Assis Pires Neto</sub>](https://github.com/Lancellot) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 |                                             [LinkedIn](https://www.linkedin.com/in/assis-pires-neto/)                                       |
