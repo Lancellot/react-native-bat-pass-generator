@@ -1,42 +1,15 @@
-import React, {useState} from 'react';
-import {Text, Pressable } from 'react-native';
-import generatePass from '../../services/passwordService';
-import { BatTextInput } from '../BatTextInput/BatTextInput';
+import React from "react";
+import { Text, Pressable, GestureResponderEvent } from "react-native";
+import { styles } from "./BatButtonStyles";
 
-import * as Clipboard from 'expo-clipboard';
+interface BatButtonProps {
+  onPress: (event: GestureResponderEvent) => void;
+}
 
-import { styles } from './BatButtonStyles';
-
-export function BatButton() {
-  const [pass, setPass] = useState('')
-
-  function handleGenerateButton() {
-    let generateToken  = generatePass()
-    setPass(generateToken)
-  }
-
-  function handleCopyButton(){
-    Clipboard.setStringAsync(pass)
-  }
-
+export function BatButton({ onPress }: BatButtonProps) {
   return (
-    <>
-      <BatTextInput pass={pass}/>
-      
-      <Pressable
-        onPress={handleGenerateButton}
-        style={styles.button}
-      >
-        <Text style={styles.text}>GENERATE</Text>
-      </Pressable>
-
-      <Pressable
-        onPress={handleCopyButton}
-        style={styles.button}
-      >
-        <Text style={styles.text}>⚡ COPY</Text>
-      </Pressable>
-
-    </>
+    <Pressable onPress={onPress} style={styles.button}>
+      <Text style={styles.text}>Activate Bat Signal</Text>
+    </Pressable>
   );
 }
